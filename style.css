@@ -1,12 +1,14 @@
 
-body {
-    background-color: black;
-    color: white;
-}
 /* hero background image */
 .bgimage {
     height:100vh;
     background: url('images/green_circ.jpg');
+    background-size:cover;
+    position:relative;
+}
+.nolan {
+  height:100vh;
+    background: url('images/nolan_img.jpg');
     background-size:cover;
     position:relative;
 }
@@ -23,7 +25,7 @@ body {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(38, 255, 0);
 }
 /* about section image css */
 .imageAboutPage {
@@ -68,7 +70,11 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  
+  /* for links*/
+  a {
+    cursor: text; /* Change the cursor to text when hovering over the link */
+}
+
   .image-row {
     width: 25%; /* Adjust the width as needed */
     margin-bottom: 20px;
@@ -85,4 +91,50 @@ body {
   img:hover {
     transform: scale(1.1); /* Zoom effect on hover */
   }
-  
+
+  /* social media icons styling */
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+  color:rgb(38, 255, 0);
+}
+.fab {
+  color: #000000;
+}
+/* footer styling */
+#footer {
+  background-color: #808080;
+  text-align: center;
+}
+#home {
+  background-color: #000000;
+  text-align: center;
+  color: rgb(38, 255, 0);
+}
+#about {
+  background-color: #000000;
+  text-align: justify;
+  color: rgb(38, 255, 0);
+}
+#Projects {
+  background-color: #000000;
+  text-align: center;
+  color: rgb(38, 255, 0);
+}
+#Art {
+  background-color: #000000;
+  text-align: center;
+  color:  rgb(38, 255, 0);
+}
+#contact {
+  background-color: #000000;
+  text-align: center;
+  color: rgb(38, 255, 0);
+}
+#Footer {
+  background-color: #000000;
+  text-align: center;
+  color: rgb(38, 255, 0); 
+}
