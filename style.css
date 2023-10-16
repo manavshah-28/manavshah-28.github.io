@@ -1,3 +1,8 @@
+
+body {
+    background-color: black;
+    color: white;
+}
 /* hero background image */
 .bgimage {
     height:100vh;
@@ -48,3 +53,36 @@
 .navbarScroll.navbarDark {
     background-color: black;
 }
+
+#art {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .image-row {
+    width: 25%; /* Adjust the width as needed */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    border: 2px solid #333; /* Add a border for image style */
+    border-radius: 5px; /* Add rounded corners */
+    transition: transform 0.2s;
+  }
+  
+  img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+  }
+  
