@@ -103,9 +103,9 @@
 .fab {
   color: #000000;
 }
-/* footer styling */
-#footer {
-  background-color: #808080;
+/* Links styling */
+#Links {
+  background-color: grey;
   text-align: center;
 }
 #home {
